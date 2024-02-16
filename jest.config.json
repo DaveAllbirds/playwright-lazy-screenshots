@@ -1,0 +1,13 @@
+{
+  "verbose": true,
+  "preset": "ts-jest",
+  "transform": {
+    "^.+\\.ts$": "ts-jest"
+  },
+  "setupFilesAfterEnv": [
+    "<rootDir>/jest.setup.ts"
+  ],
+  "testMatch": [
+    "<rootDir>/tests/unit/*.test.ts"
+  ]
+}
